@@ -1,0 +1,43 @@
+{
+  "name": "HighlevelLLC-fullstack-assignment",
+  "version": "1.0.0",
+  "description": "Design and implement a backend service for Wallet system supporting",
+  "main": "index.js",
+  "scripts": {
+    "client": "npm start --prefix client",
+    "start": "node server/main",
+    "build": "npm install && (cd client && npm install)",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AstroProjection/HighlevelLLC-fullstack-assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AstroProjection/HighlevelLLC-fullstack-assignment/issues"
+  },
+  "homepage": "https://highlevel-test-akshay.herokuapp.com/",
+  "devDependencies": {
+    "concurrently": "^7.6.0",
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.10.5",
+    "@emotion/styled": "^11.10.5",
+    "@mui/material": "^5.10.15",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-async-handler": "^1.2.0",
+    "moment": "^2.29.4",
+    "mongoose": "^6.7.3",
+    "uuid": "^9.0.0"
+  },
+  "engines": {
+    "node": "14.16.0",
+    "npm": "6.14.11"
+  }
+}
