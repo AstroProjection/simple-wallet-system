@@ -3,8 +3,9 @@ A backend service for Wallet system supporting
 
 Setup Instructions:
 1. You will need to have mongodb compass ( https://www.mongodb.com/docs/compass/current/install/ ) for your system or you can use the mongodb atlas free cluster that is provided at https://www.mongodb.com/ when you sign up.
-2. Follow the instructions and copy the mongodb URI of the cluster and paste it within the '.env' file under the MONGO_URI key
-3. open up a terminal window:
+2. Follow the instructions and copy the mongodb URI of the cluster and paste it within the '.env.development' file under the MONGO_URI key
+3. Rename the '.env.development' to '.env'
+4. open up a terminal window:
  a. navigate to the root of the project and run 'npm install'
  b. navigate to the 'client' folder and run 'npm install'
 
